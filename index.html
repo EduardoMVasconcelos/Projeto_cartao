@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adicione um cartão</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="imagem">
+            <img src="./imagens/Credit card.png" alt="cartão de credito">
+        </div>
+        <div class="formulario">
+            <form action="">
+                <label for="numero">Número do cartão</label>
+                <input type="number" id="numero" placeholder="4716 8039 02">
+
+                <label for="nome">Nome do titular</label>
+                <input type="text" id="nome" class="placeholders" placeholder="Nome como está no cartão">
+
+                <div class="inputs">
+                    <div class="validade-container">
+                        <label for="validade">Validade</label>
+                        <input type="number" id="validade" class="placeholders" placeholder="mm/aa">
+                    </div>
+                    <div class="cvv-container">
+                        <label for="cvv">CVV</label>
+                        <input type="number" id="cvv" class="placeholders" placeholder="***">
+                    </div>
+                </div>
+
+            </form>
+            <div class="spans">
+                <img src="./imagens/ShieldCheck.png" alt="" id="check">
+                <span>Seus dados estão seguros</span>
+            </div>
+
+            <button>Adicionar Cartão</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
